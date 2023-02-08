@@ -90,6 +90,11 @@ main{
     margin: 0 auto;
 }
 
+section{
+
+    margin-top: 130px;
+}
+
 .about-me{
 
     margin-top: 130px;
@@ -102,6 +107,9 @@ main{
 
 .section-title{
 
+    text-align: center;
+    font-weight: 700;
+    font-size: 35px;
     margin-bottom: 30px;
     
 
@@ -127,4 +135,35 @@ main{
     font-weight: 700;
     font-size: 20px
 
+}
+
+/* what i do */
+
+
+.what-i-do {
+
+    margin-top: 130px;
+}
+
+.skills-container{
+
+    display: flex;
+    gap: 24px;
+}
+
+.skill{
+
+    background: white;
+    box-shadow: 0px 6px 50px rgba(0 , 0, 0,0.06);
+    border-radius: 5px;
+    padding: 30px
+}
+
+
+.skill-title{
+
+    font-weight: 700;
+    font-size: 20ox;
+    margin-top: 30px;
+    margin-bottom: 20px;
 }
