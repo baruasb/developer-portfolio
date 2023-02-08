@@ -45,6 +45,12 @@ nav ul{
     background-color: rgb(253, 114, 63);
 }
 
+.header{
+    background: white;
+    background-image: url(portfolio-resources-main/images/header_bg.png) ,url(portfolio-resources-main/images/developer.png);
+    background-repeat: no-repeat;
+    background-position: bottom right , left;
+}
 /*----*/
 
 .banner{
@@ -75,4 +81,50 @@ nav ul{
     color: #757575;
     font-size: 18px;
     margin-bottom: 30px;
+}
+
+/*section */
+
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.about-me{
+
+    margin-top: 130px;
+    background-color: rgb(255, 233, 233);
+    border-radius: 14px;
+    padding: 130px 150px;
+    text-align: center;
+
+}
+
+.section-title{
+
+    margin-bottom: 30px;
+    
+
+}
+
+.section-description{
+
+    color: #757575;
+    font-size: 18px;
+    margin-bottom: 30px;
+
+}
+
+.about-info{
+    display: flex;
+    justify-content: space-around;
+}
+
+.info .info-title{
+    font-size: 20px;
+}
+.info-des{
+    font-weight: 700;
+    font-size: 20px
+
 }
