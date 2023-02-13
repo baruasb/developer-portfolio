@@ -242,3 +242,77 @@ input{
 
     text-decoration: none;
 }
+
+
+@media screen and (max-width: 576px){
+
+    .header{
+        background-image: none;
+    }
+
+
+ .banner, .skills-container, .resume-content , .about-info, .contratc{
+
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px 20px;
+}
+
+nav{
+
+    flex-direction: column-reverse;
+    align-content: center;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+nav ul{
+    flex-direction: column;
+    gap: 20px;
+}
+.about-me{
+    padding: 20px;
+}
+
+.banner{
+
+    margin: 0 20px ;
+}
+
+.banner img{
+
+    width: 100%;
+}
+.contratc{
+
+    padding: 20px;
+}
+
+.contratc input[type="text"] , input[type="email"] , textarea{
+
+    padding: 0 0 0 5px;
+}
+
+    
+}
+
+@media screen and (min-width: 577px) and (max-width : 992px) {
+
+
+    .about-me , .contratc{
+
+        padding: 20px;
+        gap: 10px;
+    }
+
+    .contratc{
+
+        flex-direction: column;
+    }
+
+    .contratc input[type="text"] , input[type="email"] , textarea{
+
+        padding: 0 0 0 5px;
+    }
+    
+}
